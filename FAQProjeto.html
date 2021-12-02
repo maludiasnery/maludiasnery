@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="indexProjeto.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Rubik:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+
+    <STYLE>
+        A {text-decoration: none;}
+    </STYLE>
+
+</head>
+
+<body>
+
+    <div>
+
+        <div class="corpoSite">
+            <div class="cabecalho" align="center">
+                <div class="logo">
+                    <img src="logo/Mariazinha (8).png">
+                </div>
+                <div class="menu">
+                    <a href="http://127.0.0.1:5500/ProjetoHTML/indexProjeto.html"><span style="color: black;"><p><b>Início</b></p></span></a>
+                    <a href="http://127.0.0.1:5500/ProjetoHTML/servicesProjeto.html"><span style="color: black;"><p><b>Serviços</b></p></span></a>
+                    <a href="http://127.0.0.1:5500/ProjetoHTML/FAQProjeto.html"><span style="color: black;"><p><b>Mais informações</b></p></span></a>
+                </div>
+                <div class="redesSociais">
+                    <a href="https://pt-br.facebook.com/" target="_blank"><img src="imgs/facebook.png" widht=45px
+                            height=45px></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="imgs/instagram.png" widht=45px
+                            height=45px></a>
+                    <a href="https://br.linkedin.com/" target="_blank"><img src="imgs/linkedin.png" widht=45px
+                            height=45px></a>
+                </div>
+            </div>
+
+            <div class="textos estilizacaoTitulo">
+                <p><b>Perguntas Frequentes</b></p>
+            </div>
+
+            <br><br>
+
+            <div class="perguntas">   <!-- PERGUNTAS -->
+
+                <button type="button" class="collapsible">Open Collapsible</button>
+                <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button type="button" class="collapsible">Open Section 1</button>
+                <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button type="button" class="collapsible">Open Section 2</button>
+                <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button type="button" class="collapsible">Open Section 3</button>
+                <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+    
+                    <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+    
+                        for (i = 0; i <= coll.length; i++) {
+                            coll[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var content = this.nextElementSibling;
+                                if (content.style.display === "block") {
+                                    content.style.display = "none";
+                                } else {
+                                    content.style.display = "block";
+                                }
+                            });
+                        }
+                    </script>
+    
+                </div>
+    
+            <div class="boxLocation"> 
+                    <div class="textos estilizacaoTitulo">
+                        <p><b>Localização</b></p>
+                    </div>
+        
+                    <div class="localizacao">
+                        <p>Av. Alberto de Barros Cobra, 438 -
+                            Nova Pouso Alegre
+                            <br>Telefone: 35 4002-8922
+                            <br>WhatsApp: 35 98765-4321
+        
+                            <br><br><span style="color: #11ABA4">Atendimento</span>
+                            <br>Segunda à sexta: 08h às 17h30
+                            <br>Sábado: 09h às 14h</p>
+                    </div>
+        
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.32527570413!2d-45.93068068443027!3d-22.227734019581952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cbc7b93cb65e93%3A0xace2a584204e8e6e!2sAv.%20Alberto%20de%20Barros%20Cobra%2C%20438%20-%20Nova%20Pouso%20Alegre%2C%20Pouso%20Alegre%20-%20MG%2C%2037550-000!5e0!3m2!1spt-BR!2sbr!4v1638227990679!5m2!1spt-BR!2sbr" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+                    
+            </div>  
+
+            <div> <!-- -->
+                <form action=""> 
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" name="" id="nomesobrenome" class="input-padrao" required placeholder="Digite o seu nome">
+        
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" class="input-padrao" required placeholder="email@dominio.com">
+        
+                    <label for="telefone">Telefone</label>
+                    <input type="number" name="" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="mensagem" cols="30" rows="10" id="mensagem" class="input-padrao"></textarea>
+                </form>
+                
+            </div>
+
+            <div class="autorizadaS">
+                <p><b>AUTORIZADA SAMSUNG©</b></p>
+            </div>   
+
+        </div>
+             
+    </div>
+
+    <div class="rodape" align="center">
+        <div class="company escritaRod">TechPoint LTDA® 2021</div>
+        <div class="direitos escritaRod">Todos os direitos reservados • assistenciatecnica@techpoint.com </div>
+        <div class="creditos escritaRod">Developed by Maria Luiza Nery</div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>

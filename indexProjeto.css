@@ -1,0 +1,317 @@
+*{margin: 0; padding: 0;} 
+.centro{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255,255,255);
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+.cabecalho{
+    position: relative;
+    width: auto;
+    height: 105px;
+    background: #11ABA4
+    }
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 150px;
+    height: 40px;
+    }
+
+.logo img{
+    position: relative;
+    height: 55px;
+    }
+
+.menu{
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    top: 40px;
+    left: 230px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #000000;
+}
+
+.menu p{
+    position: relative;
+    top: 3px;
+    margin-left: 20px;
+    float: left;
+}
+
+.redesSociais{
+    position: absolute;
+    margin-left: 1650px;
+    width: 200px;
+    height: 60px;
+    top: 20px;
+}
+
+.redesSociais img{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.corpoSite{
+    width: auto;
+    height: 1300px;
+    margin-bottom: 10px;
+    }
+
+.animacaoInicio{
+    width: auto;
+    margin: 0;
+    height: 334px;
+    left: 0px;
+    top: 130px;
+    background: #C4C4C4
+}
+
+.textos{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal; 
+    margin-top: 60px;
+    line-height: 42px;
+}
+
+.estilizacaoEscrita{
+    font-size: 36px;
+    width: 1119px;
+    height: 108px;
+    left: 401px;
+    top: 525px;
+    text-align: center;
+}
+
+.estilizacaoTitulo {
+    position: relative;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+.estilizacaoSubtitulo {
+    position: absolute;
+    margin-left: 90px;
+    font-size: 34px;
+    width: 320px;
+    height: 40px;
+    color: #11AA20;
+}
+
+.estilizacaoIndexPilares {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 150px;
+    font-size: 34px;
+    width: 900px;
+    height: 40px;
+}
+
+.estilizacaoServicos {
+    font-family: Rubik;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 80px;
+    font-size: 28px;
+    width: 1700px;
+    height: 40px;
+}
+
+.estilizacaoPag {
+    position: absoluted;
+    font-family: Rubik;
+    margin-left: -1400px;
+    margin-top: 140px;
+    font-size: 28px;
+    width: 1700px;
+    height: 40px;
+}
+
+.localizacao p{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 420px;
+    height: 202px;
+    left: 71px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;  
+}
+
+.formasPag {
+    font-family: Rubik;
+    margin-left: -800px;
+    margin-top: 60px;
+    font-size: 28px;
+    width: 1700px;
+    height: 40px;
+}
+
+.formasPag p{
+    font-family: Rubik;
+    font-size: 28px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.autorizadaS{
+    position: absolute;
+    width: 170px;
+    height: 76px;
+    left: 1700px;
+    top: 1200px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;   
+}
+
+.alignBoxes{
+    width: 1700px;
+    height: 350px;   
+    margin-top: 200px;
+}
+
+.picBox{
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.servicesBox{
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.tituloBox{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    font-size: 26px;
+    color: #1428A0;
+    font-family: Signika Negative;
+    }
+
+.alinhados{
+    display: inline-block;
+    }
+
+.rodape{
+    background-color: #1428A0;
+    width: auto;
+    height: 110px;
+}
+
+.boxLocation{
+    margin-top: -100px;
+    height: 350px;   
+}
+
+
+.perguntas{
+  height: 562px;  
+  border-color: 1px solid chocolate;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    position: relative;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 5px;
+    margin-left: 70px;
+    border-radius: 3px;
+    width: 1100px;
+    height: 50px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .FAQ:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    position: relative;
+    padding: 0 18px;
+    margin-left: 70px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    width: 1064px;
+    height: 40px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .content p{
+    margin-top: 10px;
+}
+
+.map {
+    position: absolute;
+    left: 570px;
+    margin-top: -260px;
+}
+
+.company{
+    left: 770px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.direitos{
+    left: 620px;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.creditos{
+    left: 0px;
+    margin-top: 60px;
+    width: 350px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.escritaRod{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
